@@ -1,5 +1,3 @@
-# into the .zshrc it goes
-
 alias make="make -j`nproc`"
 alias ninja="ninja -j`nproc`"
 alias n="ninja"
@@ -18,3 +16,10 @@ alias log="cat out/error.log | curl -F 'f:1=<-' ix.io"
 alias c="code"
 alias cd2="cd ../../"
 alias cd3="cd ../../../"
+alias env=". build/envsetup.sh"
+alias btop="btop --utf-force"
+alias check="bash ~/scripts/check.sh"
+alias fixzsh="bash ~/scripts/fixzsh.sh"
+alias pdf="okular"
+alias zshref="source ~/.zshrc"
+alias switchdesk="bash ~/scripts/switch.sh"

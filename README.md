@@ -1,3 +1,3 @@
-# Aliases!
+# Useful things
 
-Simple aliases that i use on daily basis, copy this to your .bashrc/.zshrc/.fishrc
+Aliases and scripts that i use daily
